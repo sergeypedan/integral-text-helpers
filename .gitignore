@@ -1,3 +1,6 @@
+.rspec_status
+*.sublime-project
+*.sublime-workspace
 /.bundle/
 /.yardoc
 /_yardoc/
@@ -6,6 +9,3 @@
 /pkg/
 /spec/reports/
 /tmp/
-
-# rspec failure tracking
-.rspec_status
