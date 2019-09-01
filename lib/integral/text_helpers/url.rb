@@ -8,11 +8,6 @@ module Integral
 
 			HTTP_PROTOCOL_REGEX = /https?:\/\//
 
-			# https://vk.com --> vk.com
-			# http://vk.com  --> vk.com
-			def strip_http(url)
-				url.sub HTTP_PROTOCOL_REGEX, ""
-			end
 
 			# "https://yandex.ru" -> "https://yandex.ru"
 			#  "http://yandex.ru" -> "http://yandex.ru"
@@ -22,6 +17,20 @@ module Integral
 			def add_missing_http(url)
 				return url if HTTP_PROTOCOL_REGEX === url
 				"http://#{url}" if url.present?
+			end
+
+
+			def pretty_external_URL(url)
+				CGI.unescape(url)
+					 .sub(/https?:\/\//, '')
+					 .truncate(50, omission: '...')
+			end
+
+
+			# https://vk.com --> vk.com
+			# http://vk.com  --> vk.com
+			def strip_http(url)
+				url.sub HTTP_PROTOCOL_REGEX, ""
 			end
 
 		end
