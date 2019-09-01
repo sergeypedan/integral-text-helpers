@@ -1,4 +1,6 @@
-RSpec.describe ApplicationHelper, ".price_range_human", type: :helper do
+RSpec.describe Integral::TextHelpers::Price, ".price_range_human", type: :helper do
+
+	include Integral::TextHelpers::Price
 
 	subject { price_range_human(min, max, unit: unit, verbose: verbose) }
 
