@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "rails_helper"
-
 RSpec.describe TextHelper, "#to_inner_quotes", type: :helper do
 
 	subject { to_inner_quotes(text) }

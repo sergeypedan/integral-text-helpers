@@ -20,16 +20,24 @@
 		"selected_items":
 		[
 			[
-				"status",
-				"Git: Status"
-			],
-			[
 				"push",
 				"Git: Push"
 			],
 			[
 				"comm",
 				"Git: Commit"
+			],
+			[
+				"add all",
+				"Git: Add All"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"status",
+				"Git: Status"
 			],
 			[
 				"add",
@@ -42,10 +50,6 @@
 			[
 				"add ",
 				"Git: Add All"
-			],
-			[
-				"tabs",
-				"Indentation: Convert to Tabs"
 			],
 			[
 				"save",
@@ -62,10 +66,6 @@
 			[
 				"com",
 				"Git: Commit"
-			],
-			[
-				"add all",
-				"Git: Add All"
 			],
 			[
 				"insta",
@@ -113,6 +113,12 @@
 	],
 	"file_history":
 	[
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral/to_inner_quotes_spec.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral/title_with_category_spec.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/quote.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/title.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral/title_includes_category_spec.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/calculations.rb",
 		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/price.rb",
 		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral/price_spec.rb",
 		"/Users/sergey/Sites/gems/integral-text_helpers/integral-text_helpers.gemspec",

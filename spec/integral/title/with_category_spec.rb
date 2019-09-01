@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require "rails_helper"
+RSpec.describe Integral::TextHelpers::Title, "#non_redundant_title_with_category", type: :helper do
 
-RSpec.describe TextHelper, "#non_redundant_title_with_category", type: :helper do
+	include Integral::TextHelpers::Title
 
 	subject { non_redundant_title_with_category(title, category, add_quotes: add_quotes) }
 
@@ -73,6 +73,13 @@ RSpec.describe TextHelper, "#non_redundant_title_with_category", type: :helper d
 		context "add_quotes: false" do
 			it { is_expected.to eq "Государственная третьяковская галерея" }
 		end
+
+		# context "category in different case" do
+		# 	let(:category) { "Галерея" }
+		# 	let(:title) { "Государственная третьяковская галерея" }
+		# 	it { is_expected.to eq "Государственная третьяковская галере" }
+		# end
+
 	end
 
 end

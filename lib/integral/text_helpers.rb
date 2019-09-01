@@ -8,7 +8,9 @@ require "integral/text_helpers/version"
 require "integral/text_helpers/case"
 require "integral/text_helpers/phone"
 require "integral/text_helpers/price"
+require "integral/text_helpers/quotes"
 require "integral/text_helpers/time"
+require "integral/text_helpers/title"
 require "integral/text_helpers/url"
 
 module Integral

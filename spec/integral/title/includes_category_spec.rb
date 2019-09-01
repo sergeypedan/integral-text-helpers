@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require "rails_helper"
+RSpec.describe Integral::TextHelpers::Title, "#title_includes_category", type: :helper do
 
-RSpec.describe TextHelper, "#title_includes_category", type: :helper do
+	include Integral::TextHelpers::Title
 
 	subject { title_includes_category(title, category) }
 
