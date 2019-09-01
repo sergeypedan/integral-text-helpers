@@ -20,19 +20,23 @@
 		"selected_items":
 		[
 			[
-				"save",
-				"Project: Save As"
+				"status",
+				"Git: Status"
 			],
 			[
-				"tabs",
-				"Indentation: Convert to Tabs"
-			],
-			[
-				"convert to tabs",
-				"Indentation: Convert to Tabs"
+				"push",
+				"Git: Push"
 			],
 			[
 				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"commi",
 				"Git: Commit"
 			],
 			[
@@ -40,20 +44,24 @@
 				"Git: Add All"
 			],
 			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"convert to tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
 				"ad",
 				"Git: Add All"
 			],
 			[
-				"push",
-				"Git: Push"
-			],
-			[
 				"com",
 				"Git: Commit"
-			],
-			[
-				"add",
-				"Git: Add All"
 			],
 			[
 				"add all",
@@ -96,10 +104,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/sergey/Sites/gems/integral-text_helpers"
+		"/Users/sergey/Sites/gems/integral-text_helpers",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers",
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec",
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral"
 	],
 	"file_history":
 	[
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/price.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral/price_spec.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/integral-text_helpers.gemspec",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/spec/integral/text_helpers_spec.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/Gemfile",
+		"/Users/sergey/Sites/gems/integral-text_helpers/Changelog.md",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/phone.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/time.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/url.rb",
+		"/Users/sergey/Sites/gems/integral-text_helpers/lib/integral/text_helpers/case.rb",
 		"/Users/sergey/Library/Mobile Documents/com~apple~CloudDocs/Programming/Ruby/Ruby on Rails/Template/template/config/initializers/mime_types.rb",
 		"/Users/sergey/Library/Mobile Documents/com~apple~CloudDocs/Programming/Ruby/Ruby on Rails/Template/template/Gemfile",
 		"/Users/sergey/Library/Mobile Documents/com~apple~CloudDocs/Programming/Ruby/Ruby on Rails/Template/template/config/environments/production.rb",
@@ -149,6 +173,7 @@
 		"height": 112.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -156,6 +181,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"does something useful",
+			"max_c",
+			"min_c",
+			"unit: unit",
+			"number_to_currency max, unit: unit",
+			"number_to_currency min, unit: unit",
+			", format: format",
+			", unit: unit",
+			"\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -230,6 +264,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"g",
+				"Gemfile"
+			],
 			[
 				"gem",
 				"Gemfile"
