@@ -13,7 +13,7 @@ module Integral
 
 
 			# Accepts standard HTML options like `class: 'my-class, id: 'my-id', like standard `link_to` does
-			def phone_to(number, humanize: true, icon: nil, options = {})
+			def phone_to(number, humanize: true, icon: nil, options={})
 				return if number.blank?
 				link_text = humanize ? humanize_telephone(number) : number
 				link_text = fa_icon(icon, text: link_text) if icon.present?
