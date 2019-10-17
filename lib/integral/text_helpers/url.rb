@@ -6,7 +6,7 @@ module Integral
 	module TextHelpers
 		module Url
 
-			HTTP_PROTOCOL_REGEX = /https?:\/\//
+			HTTP_PROTOCOL_REGEX = /https?:\/\//i
 
 
 			# "https://yandex.ru" -> "https://yandex.ru"

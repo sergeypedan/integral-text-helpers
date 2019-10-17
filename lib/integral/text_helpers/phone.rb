@@ -12,9 +12,12 @@ module Integral
 			end
 
 
-			def phone_to(number, options = {})
+			# Accepts standard HTML options like `class: 'my-class, id: 'my-id', like standard `link_to` does
+			def phone_to(number, humanize: true, icon: nil, options = {})
 				return if number.blank?
-				link_to humanize_telephone(number), "tel:+7#{unformat_phone(number)}", options
+				link_text = humanize ? humanize_telephone(number) : number
+				link_text = fa_icon(icon, text: link_text) if icon.present?
+				link_to link_text, "tel:#{unformat_phone(number)}", options.merge({ rel: :nofollow })
 			end
 
 

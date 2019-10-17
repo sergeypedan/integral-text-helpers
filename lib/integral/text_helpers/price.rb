@@ -25,8 +25,8 @@ module Integral
 
 				return "От #{min_rub} до #{max_rub}" if min && max && verbose
 				return "#{min_rub} — #{max_rub}"     if min && max
-				return "От #{min_rub}" if min.present?
-				return "До #{max_rub}"
+				return "От #{min_rub}" if min
+				return "До #{max_rub}" if max
 			end
 
 			private
