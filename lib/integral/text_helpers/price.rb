@@ -19,9 +19,11 @@ module Integral
 			def price_range_human(min, max, unit: "₽", verbose: false)
 				fail ArgumentError, "Both prices must be Numeric or Nil" unless [min, max].compact.all? { |i| i.is_a? Numeric }
 
+        return nil if min.nil? && max.nil?
+
 				options = DEFAULT_OPTIONS.merge({ unit: unit })
-				min_rub   = number_to_currency min, options
-				max_rub   = number_to_currency max, options
+				min_rub = number_to_currency min, options
+				max_rub = number_to_currency max, options
 
 				return "От #{min_rub} до #{max_rub}" if min && max && verbose
 				return "#{min_rub} — #{max_rub}"     if min && max
